@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TaskPage extends StatefulWidget{
-  const TaskPage({Key? key}) : super(key: key);
+  const TaskPage({super.key});
 
   @override
   State<TaskPage> createState() => _TaskPageState();
@@ -25,7 +25,7 @@ class _TaskPageState extends State<TaskPage>{
           Container(
             width: double.infinity,
             decoration: BoxDecoration(
-                color: Color(0xfff2f3f8),
+                color: const Color(0xfff2f3f8),
                 borderRadius: BorderRadius.circular(10)
             ),
             padding: const EdgeInsets.all(15),
@@ -50,7 +50,7 @@ class _TaskPageState extends State<TaskPage>{
           Container(
             width: double.infinity,
             decoration: BoxDecoration(
-                color: Color(0xfff2f3f8),
+                color: const Color(0xfff2f3f8),
                 borderRadius: BorderRadius.circular(10)
             ),
             padding: const EdgeInsets.all(15),
@@ -75,7 +75,7 @@ class _TaskPageState extends State<TaskPage>{
           Container(
             width: double.infinity,
             decoration: BoxDecoration(
-                color: Color(0xfff2f3f8),
+                color: const Color(0xfff2f3f8),
                 borderRadius: BorderRadius.circular(10)
             ),
             padding: const EdgeInsets.all(15),
